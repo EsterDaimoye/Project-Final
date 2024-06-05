@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loggg"
+    tools:context=".Loginpage">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:src="@drawable/masuk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        >
+
+        <EditText
+            android:id="@+id/emailforget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginRight="30dp"
+            android:hint="Email"
+            android:minHeight="48dp"
+            android:paddingStart="40sp"
+            tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextContrastCheck,TextFields,VisualLintTextFieldSize" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/userd"
+            tools:ignore="ContentDescription" />
+
+
+
+        <Button
+            android:id="@+id/btnforget"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="Send Now"
+            android:background="@drawable/buton_saya"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah punya akun??"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="#000000"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/linktologin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="-30dp"
+            android:layout_marginRight="90dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Login"
+            android:textColor="#3F51B5"
+            android:textSize="17sp"
+            tools:ignore="HardcodedText,RtlHardcoded,TextSizeCheck" />
+
+    </LinearLayout>
+
+</RelativeLayout>

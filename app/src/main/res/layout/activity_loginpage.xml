@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglogin"
+    tools:context=".Loginpage">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logobunga"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_marginTop="310dp"
+        android:layout_width="320dp"
+        android:elevation="5dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bglinear"
+        tools:ignore="Orientation">
+
+        <EditText
+            android:id="@+id/editpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+           android:inputType="textPassword"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@null"
+            android:textSize="15dp"
+            android:hint="Masukkan password anda"
+            android:minHeight="48dp"
+            android:paddingStart="20sp"
+            tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextFields,VisualLintTextFieldSize,TextContrastCheck" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="-300dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/lock"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="230dp"
+        android:layout_width="320dp"
+        android:elevation="5dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bglinear"
+        tools:ignore="Orientation">
+        <EditText
+            android:id="@+id/edituser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Masukkan username Anda"
+            android:minHeight="48dp"
+            android:textSize="15dp"
+            android:paddingStart="20sp"
+            android:background="@null"
+            tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextFields,VisualLintTextFieldSize" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="-300dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/userd"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="380dp"
+        android:orientation="vertical"
+        tools:ignore="ExtraText,UselessParent">
+        />
+
+        <TextView
+            android:id="@+id/linkforget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Forget Password"
+            android:textColor="#3F51B5"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/buton_saya"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Login"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Belum punya akun??"
+            android:textColor="#000000"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/linkregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="-28dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Register"
+            android:textColor="#3F51B5"
+            android:textSize="17sp"
+            tools:ignore="HardcodedText,RtlHardcoded,TextSizeCheck" />
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:background="@color/black" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="25sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-13dp"
+            android:background="#FEF3F3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-23dp"
+            android:text="Login With"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            tools:ignore="UselessLeaf" />
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/send1"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="TextSizeCheck">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="-20dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/google"
+                tools:ignore="ContentDescription,ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppinsmedium"
+                android:gravity="center"
+                android:text="Google"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-40dp"
+            android:background="@drawable/send2"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/fb"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppinsmedium"
+                android:gravity="center"
+                android:text="Facebook"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

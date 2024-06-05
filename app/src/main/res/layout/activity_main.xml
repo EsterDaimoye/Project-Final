@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgstarted"
+    android:exported="true"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logobunga"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:src="@drawable/masuk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="450sp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Welcome Back"
+            android:textSize="25dp"
+            tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poppinsregular"
+            android:gravity="center"
+            android:text="Selamat datang kembali di aplikasih saya disini anda akan menikmati banya hal selamat buat anda yang kuncjungi klainnya."
+            android:textColor="#455A64"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <Button
+            android:id="@+id/btnstarted"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50sp"
+            android:background="@drawable/buton_saya"
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="center"
+            android:text="Get Started"
+            android:textSize="13sp"
+            tools:ignore="HardcodedText,TextSizeCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+</RelativeLayout>
